@@ -2,7 +2,7 @@
 python-lz4
 ==========
 
-Status
+Status 
 ======
 
 .. image:: https://travis-ci.org/python-lz4/python-lz4.svg?branch=master
