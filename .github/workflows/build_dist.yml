@@ -60,6 +60,8 @@ jobs:
           CIBW_SKIP: ${{ matrix.cibw_skip }}
           CIBW_TEST_COMMAND: "tox -c {project}"
           CIBW_BEFORE_BUILD: "python -m pip install -U pip && python -m pip install tox"
+      - name: Test
+        run: ls -l /
       - name: Save wheels
         uses: actions/upload-artifact@v2
         with:
