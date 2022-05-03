@@ -53,7 +53,7 @@ jobs:
         with:
           platforms: all
       - name: Build wheels
-        uses: joerick/cibuildwheel@v2.3.1
+        uses: joerick/cibuildwheel@v2.5.0
         env:
           CIBW_ARCHS_LINUX: ${{ matrix.cibw_archs_linux }}
           CIBW_BUILD: ${{ matrix.cibw_build }}
